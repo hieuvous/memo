@@ -12,7 +12,7 @@ const Welcome = () => {
       <Text style={styles.subtitle}>Nơi lưu giữ những khoảnh khắc đáng yêu!</Text>
       <TouchableOpacity 
         style={styles.button}
-        onPress={() => router.push('/auth/login') }
+        onPress={() => router.push('/auth/signup') }
       >
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
